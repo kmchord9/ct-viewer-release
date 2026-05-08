@@ -17,7 +17,7 @@ CT-viewer ‚ÍAGPU ‰Á‘¬‚É‚æ‚é‚‘¬‚È 3 ŽŸŒ³ƒŒƒ“ƒ_ƒŠƒ“ƒO‚ðŽÀŒ»‚µ‚½AWindows Œü‚¯‚Ì
 ## ‹ZpŽd—l
 
 ### ƒA[ƒLƒeƒNƒ`ƒƒ
-- **CtLoader**: DICOMATIFFA“ÆŽ©ƒoƒCƒiƒŠŒ`Ž®‚Ì“üo—Í‚ð’S“–B
+- **CtLoader**: DICOMATIFF‚Ì“üo—Í‚ð’S“–B
 - **CtVolume**: ƒ{ƒNƒZƒ‹ƒf[ƒ^‚Æ‰ñ“]s—ñAGPU ƒŠƒ\[ƒX‚ð•ÛŽ‚µAƒŒƒ“ƒ_ƒŠƒ“ƒOƒƒWƒbƒN‚ð§ŒäB
 - **CtProject**: WL/WWA‰ñ“]Šp“xAROI “™‚Ìƒ†[ƒU[Ý’è‚ð•Û‘¶E•œŒ³B
 
