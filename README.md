@@ -1,5 +1,31 @@
-# CT-viewer Release
+# CT-viewer リリース
 
-This repository is dedicated to hosting the binary releases of CT-viewer.
+このリポジトリは、Windows 向け高機能 CT 画像ビューアー **CT-viewer** のバイナリ配布専用ページです。
 
-CT-viewer is a high-performance 3D medical image viewer for Windows, supporting DICOM, TIFF, and proprietary formats.
+## CT-viewer について
+
+CT-viewer は、GPU 加速による高速な 3 次元レンダリングを実現した、Windows 向けの高機能 CT 画像ビューアーです。WinUI 3 と ComputeSharp (GPGPU) を活用し、医療用 DICOM データをリアルタイムで 3D レンダリングおよび MPR（任意多断面再構成）表示することが可能です。
+
+### 主な機能
+- **3D ボリュームレンダリング**: GPU を使用した高速なレイキャスティングによる 3D 表示。
+- **MPR 表示**: Axial, Coronal, Sagittal の 3 断面をリアルタイムに連動表示。
+- **Trimming View**: 関心領域を指定して、ボリュームの一部を切り出したり保存したりする機能。
+- **.ctvbx (Fast Binary)**: 独自の高速バイナリ形式により、巨大なデータセットも瞬時にロード可能。
+- **TIFF インポート**: 16-bit TIFF スタックからのインジェストに対応（等方性ボクセル）。
+- **ドラッグ＆ドロップ**: フォルダやプロジェクトファイルを画面上にドロップするだけで即座に閲覧開始。
+
+## 技術仕様
+
+### アーキテクチャ
+- **CtLoader**: DICOM、TIFF、独自バイナリ形式の入出力を担当。
+- **CtVolume**: ボクセルデータと回転行列、GPU リソースを保持し、レンダリングロジックを制御。
+- **CtProject**: WL/WW、回転角度、ROI 等のユーザー設定を保存・復元。
+
+### 対応ファイル形式
+- **DICOM**: 標準的な医療用画像形式。
+- **TIFF**: 16-bit グレースケール画像スタック。
+- **.ctproj**: 表示設定を保存するプロジェクトファイル（JSON形式）。
+- **.ctvbx**: 読み込み速度を極限まで高めた独自バイナリ形式。
+
+---
+本リポジトリの [Releases](https://github.com/kmchord9/ct-viewer-release/releases) ページより、最新のインストーラーおよびバイナリをダウンロードいただけます。
