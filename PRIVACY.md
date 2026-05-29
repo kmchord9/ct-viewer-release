@@ -10,4 +10,4 @@ ct-viewer Lite does not collect, store, or transmit any personal information.
 
 This application processes files locally on your device only.
 
-Contact: kmchord9@gmail.com
+Contact: kmchord-support@yahoo.co.jp
