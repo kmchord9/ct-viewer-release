@@ -2,7 +2,7 @@
 
 ## CT Viewer
 
-Copyright (c) 2024 kmchord9. All Rights Reserved.
+Copyright (c) 2026 kmchord9. All Rights Reserved.
 
 This software and its source code are proprietary. Redistribution, modification,
 or use in any form without explicit written permission from the copyright holder
